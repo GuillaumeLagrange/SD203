@@ -1,0 +1,16 @@
+# Question 1a
+
+Le code source de la page contient uniquement une ligne qui est le texte rendered par le navigateur
+Dans les éléments, ce texte est placé dans des balises html et body. Une balise head a aussi été rajoutée. C'est le navigateur qui a ajouté ces balises pour obtenir une page syntaxement correcte à partir du code source qui ne l'est pas.
+
+# Question 1b
+
+Les balises servent à créer une structure en arbre (le DOM) qui représente la page. Cette structure est ensuite rendered par le navgateur.
+
+# Question 1c
+
+Le titre de l'onglet a changé. Par défaut c'était le chemin vers le fichier/l'url, maintenant il est remplacé par le contenu de la balise title.
+Une page HTML est en général définie de la maniere suivante:
+A la racine, une unique balise HTML, dans cette balise HTML, deux balises, une title, et une body.
+Dans la balise title sont les metadata de la page, avec eventuellement des liens pour sourcer des fichiers de style ou bien des bibliothèques js.
+Dans la balise body se trouve le contenu de la page à proprement parler, ce qui va être affiché par le navigateur.
