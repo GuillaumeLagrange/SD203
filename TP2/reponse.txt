@@ -1,3 +1,6 @@
+Nom: LAGRANGE
+Prénom: Guillaume
+
 # Question 1a
 
 Le code source de la page contient uniquement une ligne qui est le texte rendered par le navigateur
@@ -18,3 +21,14 @@ Dans la balise body se trouve le contenu de la page à proprement parler, ce qui
 # Question 1f
 Ne pas fermer la balise nav ne change pas l'affichage.
 Ne pas fermer la balise h1 change l'affichage.
+
+# Question 2b
+Je n'ai rien du changé.
+L'avantage de cette méthode et que le css est beaucoup plus maintenable. Il est impensable de laisser le css dans les balises comme on avait fait avant s'il commence à il y avoir un peu plus d'éléments sur la page.
+Un inconvénient si on peut dire est qu'il faut mettre un id ou mettre une classe sur chaque élément qu'on veut modifier.
+
+# Question 2c
+On prend le contenu de la balise style et on le met dans un fichier.
+On ajoute dans le header:
+<link rel="stylesheet" type="text/css" href="monfichier.css">
+L'avantage est de rendre le code encore plus maintenable, et de pouvoir n'écrire qu'une seule fois certaines règles CSS et sourcer le fichier dans plusieurs pages html, permettant ainsi d'éviter la duplication de code.

@@ -1,0 +1,13 @@
+#img1 {
+  float: left;
+}
+
+#div2 {
+  border: 1px solid black;
+  padding: 16px;
+}
+
+#div3 {
+  background-color: #dfdfdf;
+  margin: 16px;
+}
