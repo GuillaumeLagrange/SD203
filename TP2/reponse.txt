@@ -14,3 +14,7 @@ Une page HTML est en général définie de la maniere suivante:
 A la racine, une unique balise HTML, dans cette balise HTML, deux balises, une title, et une body.
 Dans la balise title sont les metadata de la page, avec eventuellement des liens pour sourcer des fichiers de style ou bien des bibliothèques js.
 Dans la balise body se trouve le contenu de la page à proprement parler, ce qui va être affiché par le navigateur.
+
+# Question 1f
+Ne pas fermer la balise nav ne change pas l'affichage.
+Ne pas fermer la balise h1 change l'affichage.
